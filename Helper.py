@@ -45,6 +45,8 @@ def Unfold( X, dim, i ):
 
 def tensor2mat(tensor):
     #convert a tensor into a matrix by flattening the 'day' mode to 'time interval'.
+    #The shape of given tensor should be 'time interval * locations * days'.
+    #Note that this operation is slightly different from Unfold operation
     for k in range(np.shape(tensor)[-1]):
         if k == 0:
             stacked = np.vstack(tensor[:,:,k])
