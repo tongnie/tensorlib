@@ -43,7 +43,23 @@ def Unfold( X, dim, i ):
     return X_unfold
 
 
-def tensor2mat(tensor):
+def TensorFromMat(mat,dim):
+    #Construct a 3D tensor from a matrix
+    days_slice = [(start_i,start_i + dim[0]) for start_i in list(range(0,dim[0]*dim[2],dim[0]))]
+    array_list = []
+    for day_slice in days_slice:
+        start_i,end_i = day_slice[0],day_slice[1]
+        array_slice = mat[start_i:end_i,:]
+        array_list.append(array_slice)
+        tensor3d = tl.tensor(np.stack(array_list,axis = 0).astype('float64'))
+        tensor3d = np.moveaxis(tensor3d,0,-1)
+
+    print(tensor3d.shape)
+        
+    return tensor3d
+
+    
+def Tensor2Mat(tensor):
     #convert a tensor into a matrix by flattening the 'day' mode to 'time interval'.
     #The shape of given tensor should be 'time interval * locations * days'.
     #Note that this operation is slightly different from Unfold operation
