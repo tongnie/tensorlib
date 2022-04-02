@@ -8,7 +8,7 @@ Truncated tensor Schatten p-norm based low-rank tensor completion, LRTC-TSpN
 
 import numpy as np
 import matplotlib.pyplot as plt
-from Helper import Fold,Unfold,compute_MAE,compute_RMSE
+from Helper import Fold,Unfold,compute_MAE,compute_RMSE,compute_MAPE
 
 #Optiminize Truncated Schatten p-norm via ADMM
 
@@ -71,7 +71,7 @@ def TSpN_ADMM(X_true,X_missing,Omega,alpha,beta,incre,maxIter,epsilon,p,theta):
         
         #Update M variable
         for i in range(np.ndim(X_missing)):
-            M[i] = Fold(update_Mi(Unfold(X+(1/beta)*Q[i],dim,i),alpha[i],beta,p,theta),dim,i)
+            M[i] = Fold(update_Mi(Unfold(X+(1/beta)*Q[i],dim,i),alpha[i],beta,p,theta),dim,i) ##M为四维张量
         
         Xlast = X.copy() 
         X = np.sum(beta*M-Q,axis=0)/(beta*(X_missing.ndim)) #Updata X variable
@@ -100,9 +100,10 @@ def LRTC_TSpN(complete_tensor,observed_tensor,theta=0.1,alpha=np.array([1,1,1]),
     alpha = alpha / np.sum(alpha)
     epsilon = 1e-3
     X_hat,MAE_List,RMSE_List,errList,it = TSpN_ADMM(X_true,X_missing,Omega,alpha,beta,incre,maxiter,epsilon,p,theta)
-    
+    MAPE = compute_MAPE(X_missing,X_true,X_hat)
     print(f'LRTC-TSpN imptation MAE = {MAE_List[-1]:.3f}')
     print(f'LRTC-TSpN imputation RMSE = {RMSE_List[-1]:.3f}')
+    print(f'LRTC-TSpN imputation MAPE = {MAPE:.3f}')
     
     if show_plot == True:
         plt.plot(range(len(MAE_List)),MAE_List)
