@@ -51,7 +51,7 @@ def TensorFromMat(mat,dim):
         start_i,end_i = day_slice[0],day_slice[1]
         array_slice = mat[start_i:end_i,:]
         array_list.append(array_slice)
-        tensor3d = tl.tensor(np.stack(array_list,axis = 0).astype('float64'))
+        tensor3d = np.array(np.stack(array_list,axis = 0).astype('float64'))
         tensor3d = np.moveaxis(tensor3d,0,-1)
 
     print(tensor3d.shape)
