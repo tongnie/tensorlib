@@ -61,15 +61,12 @@ def TensorFromMat(mat,dim):
     
 def Tensor2Mat(tensor):
     #convert a tensor into a matrix by flattening the 'day' mode to 'time interval'.
-    #The shape of given tensor should be 'time interval * locations * days'.
-    #Note that this operation is slightly different from Unfold operation
     for k in range(np.shape(tensor)[-1]):
         if k == 0:
             stacked = np.vstack(tensor[:,:,k])
         else:
             stacked = np.vstack((stacked,tensor[:,:,k]))
     return stacked
-
 
 def compute_MAE(X_masked,X_true,X_hat): #Only calculate the errors on the masked and nonzero positions
     pos_test = np.where((X_true != 0) & (X_masked == 0))
