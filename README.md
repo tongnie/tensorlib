@@ -20,7 +20,8 @@ We organise the multiple input time series data into a third-order tensor struct
 In this repository, we have used two small-size traffic flow datasets to show how to implement our model, they are:  
 - Guangzhou-small: Speed data with the first 50 locations and the first 15 days. The size is (144 × 50 × 15).
 - Portland-small: Volume data with the first 80 locations and the first 15 days. The size is (96 × 80 × 15).
-These datasets are publicly available. The original links for the complete data are given as following.
+We provide the two datasets in [../Datasets/](https://github.com/tongnie/tensorlib/)
+The original links for the complete data are given as following.
 
 - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
 - [Portland highway traffic data set](https://portal.its.pdx.edu/home)
