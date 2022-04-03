@@ -12,7 +12,7 @@ imputation with complicated missing patterns' which is submitted to Transportati
 
 ## Datasets
 - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
-- [Portland highway traffic data set](https://portal.its.pdx.edu/home) (including traffic volume/speed/occupancy, see [data documentation](https://portal.its.pdx.edu/static/files/fhwa/Freeway%20Data%20Documentation.pdf))
+- [Portland highway traffic data set](https://portal.its.pdx.edu/home)
 - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
 
 
