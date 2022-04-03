@@ -10,6 +10,12 @@ Tutorials and examples are coming soon!
 > This is the code repository for paper 'Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data
 imputation with complicated missing patterns' which is submitted to Transportation Research Part C: Emerging Technologies
 
+## Overview
+This project provides some examples about how to use the proposed LRTC-TSpN to achieve efficient and accurate missing data imputation in time series data. We aim at performing off-line data imputation tasks.
+
+## Model description
+We organise the multiple input time series data into a third-order tensor structure of (time interval$\times$)
+
 ## Datasets
 In this repository, we have used two small-size traffic flow datasets to show how to implement our model, they are:  
 - Guangzhou-small: Speed data with the first 50 locations and the first 15 days. The size is (144 × 50 × 15).
