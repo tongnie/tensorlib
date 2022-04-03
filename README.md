@@ -1,6 +1,6 @@
 # Tensor operation library
 --------------
-![Python 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)
+![Python 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Low-rank tensor completion using Truncated tensor Schatten p-norm, LRTC-TSpN.
