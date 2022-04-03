@@ -11,7 +11,7 @@ Tutorials and examples are coming soon!
 imputation with complicated missing patterns' which is submitted to Transportation Research Part C: Emerging Technologies
 
 ## Overview
-This project provides some examples about how to use the proposed LRTC-TSpN to achieve efficient and accurate missing data imputation in time series data. We aim at performing off-line data imputation tasks.
+This project provides some examples about how to use the proposed LRTC-TSpN to achieve efficient and accurate missing data imputation for time series data. We aim at performing off-line data imputation tasks.
 
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days).
