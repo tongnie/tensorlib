@@ -14,7 +14,7 @@ imputation with complicated missing patterns' which is submitted to Transportati
 This project provides some examples about how to use the proposed LRTC-TSpN to achieve efficient and accurate missing data imputation in time series data. We aim at performing off-line data imputation tasks.
 
 ## Model description
-We organise the multiple input time series data into a third-order tensor structure of (time interval$\times$)
+We organise the multiple input time series data into a third-order tensor structure of (time interval$\time$)
 
 ## Datasets
 In this repository, we have used two small-size traffic flow datasets to show how to implement our model, they are:  
