@@ -11,9 +11,13 @@ Tutorials and examples are coming soon!
 imputation with complicated missing patterns' which is submitted to Transportation Research Part C: Emerging Technologies
 
 ## Datasets
+In this repository, we have used two small-size traffic flow datasets to show how to implement our model, they are:  
+- Guangzhou-small: Speed data with the first 50 locations and the first 15 days. The size is (144 × 50 × 15).
+- Portland-small: Volume data with the first 80 locations and the first 15 days. The size is (96 × 80 × 15).
+some publicly available data sets into our experiments. The original links for these data are given as following.
+
 - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
 - [Portland highway traffic data set](https://portal.its.pdx.edu/home)
-- [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
 
 
 License
