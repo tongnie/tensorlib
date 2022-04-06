@@ -16,6 +16,9 @@ This project provides some examples about how to use the proposed LRTC-TSpN to a
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days).
 
+## Spatial-temporal data missing patterns
+
+
 ## Datasets
 In this repository, we have used two small-size traffic flow datasets to show how to implement our model, they are:  
 - Guangzhou-small: Speed data with the first 50 locations and the first 15 days. The size is (144 × 50 × 15).
