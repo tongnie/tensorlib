@@ -24,8 +24,8 @@ Besides the element-wise random missing case, we define three structured fiber m
 
 ## Datasets
 In this repository, we have used two small-size traffic flow datasets to show how to implement our model, they are:  
-- Guangzhou-small: Speed data with the first 50 locations and the first 15 days. The size is (144 × 50 × 15).
-- Portland-small: Volume data with the first 80 locations and the first 15 days. The size is (96 × 80 × 15).  
+- **Guangzhou-small**: Speed data with the first 50 locations and the first 15 days. The size is (144 × 50 × 15).
+- **Portland-small**: Volume data with the first 80 locations and the first 15 days. The size is (96 × 80 × 15).  
 
 We provide the two datasets in [../Datasets/](https://github.com/tongnie/tensorlib/tree/main/Datasets).
 The original links for the complete data are given as following.
