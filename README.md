@@ -17,7 +17,7 @@ This project provides some examples about how to use the proposed LRTC-TSpN to a
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days).
 
 ## Spatial-temporal data missing patterns
-Besides the element-wise random missing case, we define three structured fiber mode- $n$ missing scenarios, which are generated through the two-by-two combinations of tensor mode-$n$ fibers. This can be described as: 
+Besides the element-wise random missing case, we define three structured fiber mode-n missing scenarios, which are generated through the two-by-two combinations of tensor mode-$n$ fibers. This can be described as: 
 - **’Intervals’ mode fiber-like missing (FM-0)**, which illustrates a temporal missing pattern, is caused by adverse weather, breakdown of wireless connections or apparatus maintenance; 
 - **’Locations’ mode fiber-like missing (FM-1)**, which denotes a spatial missing pattern, can be explained by lack of electricity for successive sensors or malfunction of Internet Data Center; 
 - **’Days’ mode fiber-like missing (FM-2)** illuminates a spatial-temporal mixture missing situation that they are offline (do not operate) at regular time intervals everyday for specific sensors.
