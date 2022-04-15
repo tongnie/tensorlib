@@ -16,6 +16,8 @@ This project provides some examples about how to use the proposed LRTC-TSpN to a
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). The objective of Schatten p-norm minimization is nonconvex, and we solve this problem by using Alternating Direction Method of Multipliers (ADMM).
 
+More details can be found in our paper.
+
 ## Spatial-temporal data missing patterns
 Besides the element-wise random missing case, we define three structured fiber mode-n missing scenarios, which are generated through the two-by-two combinations of tensor mode-n fibers. This can be described as: 
 - **’Intervals’ mode fiber-like missing (FM-0)**, which illustrates a temporal missing pattern, is caused by adverse weather, breakdown of wireless connections or apparatus maintenance; 
