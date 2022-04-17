@@ -5,7 +5,7 @@
 
 Low-rank tensor completion using Truncated tensor Schatten p-norm, LRTC-TSpN.
 
-Tutorials and examples are coming soon!
+More tutorials and examples are coming soon!
 
 > This is the code repository for paper 'Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data
 imputation with complicated missing patterns' which is submitted to Transportation Research Part C: Emerging Technologies
