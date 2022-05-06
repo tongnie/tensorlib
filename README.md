@@ -35,6 +35,9 @@ The original links for the complete data are given as following.
 - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
 - [Portland highway traffic data set](https://portal.its.pdx.edu/home)
 
+## Examples(coming soon)
+We give some examples written in Jupyter notebook [../Examples/](https://github.com/tongnie/tensorlib/blob/main/Examples).
+*To be completed!*
 
 License
 --------------
