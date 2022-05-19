@@ -21,9 +21,17 @@ More details can be found in our paper.
 ## Solving algorithm
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
 
+Generalized soft-thresholding algorithm:
+
 <p align="center">
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm1.png" width="650" />
 </p>
+
+ADMM framework:
+<p align="center">
+<img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm2.png" width="650" />
+</p>
+
 
 ## Spatial-temporal data missing patterns
 Besides the element-wise random missing case, we define three structured fiber mode-n missing scenarios, which are generated through the two-by-two combinations of tensor mode-n fibers. This can be described as: 
