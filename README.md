@@ -22,7 +22,7 @@ More details can be found in our paper.
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
 
 <p align="center">
-<img align="middle" src="https://github.com/](https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm1.png" width="650" />
+<img align="middle" src="https://github.com/https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm1.png" width="650" />
 </p>
 
 ## Spatial-temporal data missing patterns
