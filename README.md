@@ -14,9 +14,12 @@ imputation with complicated missing patterns' which is published on Transportati
 This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks.
 
 ## Model description
-We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). The objective of Schatten p-norm minimization is nonconvex, and we solve this problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
+We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm serves as a better rank surrogate.
 
 More details can be found in our paper.
+
+## Solving algorithm
+We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
 
 ## Spatial-temporal data missing patterns
 Besides the element-wise random missing case, we define three structured fiber mode-n missing scenarios, which are generated through the two-by-two combinations of tensor mode-n fibers. This can be described as: 
