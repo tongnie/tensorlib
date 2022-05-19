@@ -8,7 +8,7 @@ Low-rank tensor completion using Truncated tensor Schatten p-norm, LRTC-TSpN.
 More tutorials and examples are coming soon!
 
 > This is the code repository for paper 'Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data
-imputation with complicated missing patterns' which is submitted to Transportation Research Part C: Emerging Technologies
+imputation with complicated missing patterns' which is published on Transportation Research Part C: Emerging Technologies
 
 ## Overview
 This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks.
