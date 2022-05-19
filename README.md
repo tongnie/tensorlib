@@ -21,6 +21,10 @@ More details can be found in our paper.
 ## Solving algorithm
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
 
+<p align="center">
+<img align="middle" src="https://github.com/](https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm1.png" width="650" />
+</p>
+
 ## Spatial-temporal data missing patterns
 Besides the element-wise random missing case, we define three structured fiber mode-n missing scenarios, which are generated through the two-by-two combinations of tensor mode-n fibers. This can be described as: 
 - **’Intervals’ mode fiber-like missing (FM-0)**, which illustrates a temporal missing pattern, is caused by adverse weather, breakdown of wireless connections or apparatus maintenance; 
