@@ -42,6 +42,8 @@ The original links for the complete data are given as following.
 We give some examples written in Jupyter notebook [../Examples/](https://github.com/tongnie/tensorlib/blob/main/Examples).  
 *To be completed!*
 
+  >Please cite our paper if this repo helps your research.
+
 License
 --------------
 
