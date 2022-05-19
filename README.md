@@ -16,7 +16,7 @@ This project provides some examples about how to use LRTC-TSpN to achieve effici
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm serves as a better rank surrogate.
 
-More details can be found in our paper.
+More details can be found in our paper. The preprint version can be found at arXiv, and the published version can be found at xxx.
 
 ## Solving algorithm
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
