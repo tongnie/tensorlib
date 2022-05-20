@@ -58,6 +58,17 @@ We give some examples written in Jupyter notebook [../Examples/](https://github.
 
   >Please cite our paper if this repo helps your research.
 
+Cited as:
+- bibtex:
+@misc{nie2022truncated,
+      title={Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data imputation with complicated missing patterns}, 
+      author={Tong Nie and Guoyang Qin and Jian Sun},
+      year={2022},
+      eprint={2205.09390},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
 License
 --------------
 
