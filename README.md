@@ -11,7 +11,7 @@ More tutorials and examples are coming soon!
 imputation with complicated missing patterns' which is published on Transportation Research Part C: Emerging Technologies
 
 ## Overview
-This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks, with several realistic structural missing patterns. Missing data imputation problem is modelled as a low-rank tensor completion problem (low-rank tensor learning).
+This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks, with several realistic structural missing patterns. Missing data imputation problem is modelled as a low-rank tensor completion problem (low-rank tensor learning). The objective is to obtain a fully recovered tensor by minimizing a predefined tensor rank function, given the observations. We define a new **truncated tensor Schatten p-norm** to substitute for traditional tensor nuclear norm.
 
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm serves as a better rank surrogate.
