@@ -3,7 +3,7 @@
 ![Python 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Low-rank tensor completion using Truncated tensor Schatten p-norm, LRTC-TSpN.
+**L**ow-**r**ank **t**ensor **c**ompletion using **T**runcated tensor **S**chatten p-**n**orm, LRTC-TSpN.
 
 More tutorials and examples are coming soon!
 
