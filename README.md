@@ -16,6 +16,10 @@ This project provides some examples about how to use LRTC-TSpN to achieve effici
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm serves as a better rank surrogate.
 
+<p align="center">
+<img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/norm_compare.png" width="650" />
+</p>
+
 More details can be found in our paper. The preprint version can be found at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at xxx.
 
 ## Solving algorithm
