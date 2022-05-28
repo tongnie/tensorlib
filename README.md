@@ -23,7 +23,7 @@ We organise the multiple input time series data into a third-order tensor struct
 The objective function of Schatten p-norm minimization is formulated as:
 
 
-More details can be found in our paper. The preprint version can be found at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at xxx.
+More details can be found in our paper. The preprint version can be found at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at the TRC publisher.
 
 ## Solving algorithm
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
