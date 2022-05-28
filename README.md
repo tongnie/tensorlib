@@ -17,7 +17,7 @@ This project provides some examples about how to use LRTC-TSpN to achieve effici
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm always serves as a better rank surrogate than nuclaer norm, and we can use its nonconvex properity to better approximate tensor rank.
 
 <p align="center">
-<img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/norm_compare.png" width="650" />
+<img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/norm_compare.png" width="250" height="300" />
 </p>
 
 The objective function of Schatten p-norm minimization is formulated as:
