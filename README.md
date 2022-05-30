@@ -23,7 +23,7 @@ We organise the multiple input time series data into a third-order tensor struct
 The objective function of Schatten p-norm minimization is formulated as:
 
 <p align="center">
-<img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/objective.png" width="300" height="100"/>
+<img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/objective.png" width="280" height="100"/>
 </p>
 
 More details can be found in our paper. The preprint version can be found at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at the TRC publisher.
