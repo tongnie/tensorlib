@@ -11,7 +11,7 @@ More tutorials and examples are coming soon!
 imputation with complicated missing patterns' which is published on Transportation Research Part C: Emerging Technologies
 
 ## Overview
-This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks, with several realistic structural missing patterns. Missing data imputation problem is modelled as a low-rank tensor completion problem (low-rank tensor learning). The objective is to obtain a fully recovered tensor by minimizing a predefined tensor rank function, given the observations. We define a new **truncated tensor Schatten p-norm** to substitute for the traditional tensor nuclear norm.
+This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks, with several realistic structural missing patterns. Missing data imputation problem is modelled as a low-rank tensor completion problem (low-rank tensor learning). The objective is to obtain a fully recovered tensor by minimizing a predefined tensor rank function, given the observations. We define a new **truncated tensor Schatten p-norm** to substitute for the traditional tensor nuclear norm. We recommend ones to refer to Kolda and Bader’s review [Tensor Decompositions and Applications](https://epubs.siam.org/doi/abs/10.1137/07070111x) for more basics about tensor.
 
 ## Model description
 We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm always serves as a better rank surrogate than nuclaer norm, and we can use its nonconvex properity to better approximate tensor rank.
@@ -59,6 +59,10 @@ The original links for the complete data are given as following.
 
 - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
 - [Portland highway traffic data set](https://portal.its.pdx.edu/home)
+
+## Implementation
+The Python implementation of LRTC-TSpN is given in [../Imputer/](https://github.com/tongnie/tensorlib/blob/main/Imputer). The core of the algorithm is the GST and ADMM iteration module. We organize this implementation in a tensor-only way to make it more efficient. Some utils and basic tensor operation functions are provided in [../Helper/](https://github.com/tongnie/tensorlib/blob/main/Helper).
+
 
 ## Examples(coming soon)
 We give some examples written in Jupyter notebook [../Examples/](https://github.com/tongnie/tensorlib/blob/main/Examples).  
