@@ -61,7 +61,7 @@ The original links for the complete data are given as following.
 - [Portland highway traffic data set](https://portal.its.pdx.edu/home)
 
 ## Implementation
-The Python implementation of LRTC-TSpN is given in [../Imputer/]([https://github.com/tongnie/tensorlib/blob/main/Imputer](https://github.com/tongnie/tensorlib/blob/main/Imputer.py). The core of the algorithm is the GST and ADMM iteration module. We organize this implementation in a tensor-only way to make it more efficient. Some utils and basic tensor operation functions are provided in [../Helper/](https://github.com/tongnie/tensorlib/blob/main/Helper.py).
+The Python implementation of LRTC-TSpN is given in [../Imputer/](https://github.com/tongnie/tensorlib/blob/main/Imputer.py). The core of the algorithm is the GST and ADMM iteration module. We organize this implementation in a tensor-only way to make it more efficient. Some utils and basic tensor operation functions are provided in [../Helper/](https://github.com/tongnie/tensorlib/blob/main/Helper.py).
 
 
 ## Examples(coming soon)
