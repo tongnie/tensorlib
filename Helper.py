@@ -38,7 +38,7 @@ def Fold(X, dim, i):
 
 
 def Unfold( X, dim, i ):
-    #Unfold a tensor into a tensor in mode i.
+    #Unfold a tensor into a matrix in mode i.
     X_unfold = np.reshape(shiftdim(X,i), (dim[i],-1),order='F')
     return X_unfold
 
