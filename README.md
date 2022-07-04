@@ -20,7 +20,7 @@ We organise the multiple input time series data into a third-order tensor struct
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/norm_compare.png" width="650" />
 </p>
 
-> Schatten p-norm always serves as a better rank surrogate than nuclaer norm, and we can use its nonconvex properity to better approximate tensor rank.
+> Schatten p-norm always serves as a better rank surrogate (closer to the true rank) than nuclaer norm, and we can use its nonconvex properity to better approximate tensor rank.
 
 The objective function of Schatten p-norm minimization is formulated as:
 
