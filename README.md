@@ -5,7 +5,6 @@
 
 **L**ow-**r**ank **t**ensor **c**ompletion using **T**runcated tensor **S**chatten **p**-**N**orm, LRTC-TSpN.
 
-More tutorials and examples are coming soon!
 
 > This is the code repository for paper 'Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data
 imputation with complicated missing patterns' which is published on Transportation Research Part C: Emerging Technologies
