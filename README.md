@@ -28,7 +28,7 @@ The objective function of Schatten p-norm minimization is formulated as:
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/objective.png" width="320" height="100"/>
 </p>
 
-This is a typical noncnovex optimization problem. 
+This is a typical noncnovex optimization problem. Previous works aiming at solving tensor completion problem always conduct a singular value thresholding (SVT) algorithm. While existing SVT could not be applied to our problem directly.
 
 ## Solving algorithm
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
