@@ -44,7 +44,7 @@ ADMM framework:
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm2.png" width="650" />
 </p>
 
-More details can be found in our paper. The preprint version is available at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at the [Elsevier publisher](https://doi.org/10.1016/j.trc.2022.103737).
+Despite of nonconvexity, ADMM framework still ensures the convergence of our model. With proper updating scheme, our algorithm can converge with fewer iterations. More algorithmic details can be found in our paper. The preprint version is available at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at the [Elsevier publisher](https://doi.org/10.1016/j.trc.2022.103737).
 
 
 ## Spatial-temporal data missing patterns
