@@ -13,7 +13,8 @@ imputation with complicated missing patterns' which is published on Transportati
 This project provides some examples about how to use LRTC-TSpN to achieve efficient and accurate missing data imputation for transportation time series data. We aim at performing off-line data imputation tasks, with several realistic structural missing patterns. Missing data imputation problem is modelled as a low-rank tensor completion problem (low-rank tensor learning). The objective is to obtain a fully recovered tensor by minimizing a predefined tensor rank function, given the observations. We define a new **truncated tensor Schatten p-norm** to substitute for the traditional tensor nuclear norm. We recommend ones to refer to Kolda and Bader’s review [Tensor Decompositions and Applications](https://epubs.siam.org/doi/abs/10.1137/07070111x) for more basics about tensor.
 
 ## Model description
-We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Schatten p-norm always serves as a better rank surrogate than nuclaer norm, and we can use its nonconvex properity to better approximate tensor rank.
+We organise the multiple input time series data into a third-order tensor structure of (time intervals × locations × days). Traditional methods resort to tensor nuclear norm (or sum of nuclear norm) to substitute for the tensor rank, however, these convex surrogates are not 
+Schatten p-norm always serves as a better rank surrogate than nuclaer norm, and we can use its nonconvex properity to better approximate tensor rank.
 
 <p align="center">
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/norm_compare.png" width="650" />
