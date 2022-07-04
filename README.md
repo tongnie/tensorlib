@@ -28,7 +28,7 @@ The objective function of Schatten p-norm minimization is formulated as:
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/objective.png" width="320" height="100"/>
 </p>
 
-More details can be found in our paper. The preprint version is available at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at the [Elsevier publisher](https://doi.org/10.1016/j.trc.2022.103737).
+This is a typical noncnovex optimization problem. 
 
 ## Solving algorithm
 We solve this non-convex problem by using Alternating Direction Method of Multipliers (ADMM) and Generalized Soft Thresholding (GST).
@@ -43,6 +43,8 @@ ADMM framework:
 <p align="center">
 <img align="middle" src="https://github.com/tongnie/tensorlib/blob/main/Figures/algorithm2.png" width="650" />
 </p>
+
+More details can be found in our paper. The preprint version is available at [arXiv](https://arxiv.org/abs/2205.09390), and the published version can be found at the [Elsevier publisher](https://doi.org/10.1016/j.trc.2022.103737).
 
 
 ## Spatial-temporal data missing patterns
