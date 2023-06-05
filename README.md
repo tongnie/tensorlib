@@ -1,4 +1,4 @@
-# Tensor operation library
+# Low-rank tensor completion algorithm for spatiotemporal traffic data imputation 
 --------------
 ![Python 3.8](https://img.shields.io/badge/Python-3.8-blue.svg)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
