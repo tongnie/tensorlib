@@ -70,7 +70,6 @@ The Python implementation of LRTC-TSpN is given in [../Imputer/](https://github.
 
 ## Toy Examples
 We give some examples written in Jupyter notebook [../Examples/](https://github.com/tongnie/tensorlib/blob/main/Examples).  
-*To be completed!*
 
 ## References
 
