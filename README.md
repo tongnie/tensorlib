@@ -90,6 +90,15 @@ bibtex:
 }
 ```
 
+### Our Publications
+--------------
+- Tong Nie, Guoyang Qin, Yunpeng Wang, and Jian Sun (2023). **Towards better traffic volume estimation: Tackling both underdetermined and non-equilibrium problems via a correlation-adaptive graph convolution network**. arXiv preprint arXiv:2303.05660. [[Preprint](https://doi.org/10.48550/arXiv.2303.05660)] [[Code](https://github.com/tongnie/GNN4Flow)]
+
+- Tong Nie, Guoyang Qin, Yunpeng Wang, and Jian Sun (2023). **Correlating sparse sensing for large-scale traffic speed estimation:
+A Laplacian-enhanced low-rank tensor kriging approach**. Transportation Research Part C: Emerging Technologies, 152, 104190, [[Preprint](https://doi.org/10.48550/arXiv.2210.11780)] [[DOI](https://doi.org/10.1016/j.trc.2023.104190)] [[Code](https://github.com/tongnie/tensor4kriging)]
+
+- Tong Nie, Guoyang Qin, and Jian Sun (2022). **Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data imputation with complicated missing patterns**. Transportation research part C: emerging technologies, 141, 103737, [[Preprint](https://doi.org/10.48550/arXiv.2205.09390)] [[DOI](https://doi.org/10.1016/j.trc.2022.103737)] [[Code](https://github.com/tongnie/tensorlib)]
+
 
 License
 --------------
